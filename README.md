@@ -144,3 +144,12 @@ Ios支持的gpu并行图形接口:opengl es、Metal(是苹果原生，可以支�
 ```
 Python处理点云的包：open3d
 ```
+```
+远程访问公司内网及内部系统的app：EasyConnect
+```
+```
+操作系统图形界面窗口系统:X Window System(也叫X窗口系统)
+知名的基于X窗口系统基础构建的桌面环境:GNOME,KDE
+远程桌面及交互传输软件:VNC(Virtual Network Computing,包含VNC Server,VNC Viewer)
+了解文档：https://bbs.huaweicloud.com/blogs/192107
+```
