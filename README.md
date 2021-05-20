@@ -153,3 +153,16 @@ Python处理点云的包：open3d
 远程桌面及交互传输软件:VNC(Virtual Network Computing,包含VNC Server,VNC Viewer)
 了解文档：https://bbs.huaweicloud.com/blogs/192107
 ```
+```
+服务端请求图片编解码
+import base64
+import cv2
+import numpy as np
+# base64ToImg:
+image=base64.b64decode(image_b64)
+image=np.asarray(bytearray(image),dtype='uint8')
+image=cv2.imdecode(image,cv2.IMREAD_COLOR)
+# imgToBase64:
+retval,buffer=cv2.imencode('.jpg',image)
+image_b64=str(base64.b64encode(buffer),encoding='utf-8')
+```
