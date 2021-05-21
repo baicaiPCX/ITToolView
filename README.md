@@ -192,3 +192,9 @@ proxychains4 wget http://youwebsite.com/youfile
 1、GitLab CI/CD
 2、Jenkins
 ```
+```
+团队、部门、企业内部的信息共享、协同编辑:Confluence
+```
+```
+企业内部管理系统:Office Automation(OA)
+```
