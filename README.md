@@ -166,3 +166,21 @@ image=cv2.imdecode(image,cv2.IMREAD_COLOR)
 retval,buffer=cv2.imencode('.jpg',image)
 image_b64=str(base64.b64encode(buffer),encoding='utf-8')
 ```
+```
+帮助团队规划、指派、跟踪、报告和管理工作(比如提需求、bug):Jira 平台
+```
+```
+Linux/macOS Terminal下的翻墙
+1、安装proxychains-ng
+git clone https://github.com/rofl0r/proxychains-ng.git
+./configure
+make -j8 && make install && make install-config
+2、配置
+编辑文件/usr/local/etc/proxychains.conf在末尾添加http或者socks5代理地址 如: socks5 172.16.3.44 1080
+PS:这里socks5可以指向Shadowsocks的地址，需要安装一个ss的服务 https://github.com/shadowsocks/shadowsocks-qt5/wiki/使用手册
+3、加到要翻墙的程序前使用即可，如wget
+proxychains4 wget http://youwebsite.com/youfile
+```
+```
+私人使用的仓库:Gitlab
+```
