@@ -184,3 +184,11 @@ proxychains4 wget http://youwebsite.com/youfile
 ```
 私人使用的仓库:Gitlab
 ```
+```
+与服务端互传文件:filezilla
+```
+```
+持续集成管线 CI:
+1、GitLab CI/CD
+2、Jenkins
+```
