@@ -198,3 +198,6 @@ proxychains4 wget http://youwebsite.com/youfile
 ```
 企业内部管理系统:Office Automation(OA)
 ```
+```
+ubunt挂载硬盘:https://www.cnblogs.com/sddai/p/11097028.html
+```
