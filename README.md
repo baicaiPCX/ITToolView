@@ -207,3 +207,6 @@ ubuntu16.04安装nvidia:https://blog.csdn.net/lihe4151021/article/details/900834
 ```
 C++包管理工具：conan
 ```
+```
+cuda与gpu驱动版本对应:https://www.nvidia.com/Download/index.aspx?lang=en-us
+```
