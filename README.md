@@ -204,3 +204,6 @@ ubunt挂载硬盘:https://www.cnblogs.com/sddai/p/11097028.html
 ```
 ubuntu16.04安装nvidia:https://blog.csdn.net/lihe4151021/article/details/90083431
 ```
+```
+C++包管理工具：conan
+```
