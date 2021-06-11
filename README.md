@@ -210,3 +210,6 @@ C++包管理工具：conan
 ```
 cuda与gpu驱动版本对应:https://www.nvidia.com/Download/index.aspx?lang=en-us
 ```
+```
+pytorch的图神经网络运算库:torch_geometric
+```
