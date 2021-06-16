@@ -213,3 +213,6 @@ cuda与gpu驱动版本对应:https://www.nvidia.com/Download/index.aspx?lang=en-
 ```
 pytorch的图神经网络运算库:torch_geometric
 ```
+```
+比较两个字符串的相识度:python:difflib.SequenceMatcher
+```
