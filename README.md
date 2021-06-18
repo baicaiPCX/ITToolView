@@ -216,3 +216,7 @@ pytorch的图神经网络运算库:torch_geometric
 ```
 比较两个字符串的相识度:python:difflib.SequenceMatcher
 ```
+```
+把当前ubuntu系统制作成镜像:https://www.cnblogs.com/linuxAndMcu/p/10774020.html
+重装系统:https://jingyan.baidu.com/article/5225f26b0bb45fe6fa0908bc.html
+```
