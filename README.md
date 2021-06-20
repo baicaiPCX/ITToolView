@@ -220,3 +220,14 @@ pytorch的图神经网络运算库:torch_geometric
 把当前ubuntu系统制作成镜像:https://www.cnblogs.com/linuxAndMcu/p/10774020.html
 重装系统:https://jingyan.baidu.com/article/5225f26b0bb45fe6fa0908bc.html
 ```
+```
+pytorch安装官网:https://pytorch.org/get-started/locally/#start-locally
+tensorflow安装官网:https://www.tensorflow.org/install/pip?hl=zh-cn（pip包:https://pypi.org/project/tensorflow/#files)
+nvidia驱动安装官网:https://www.nvidia.com/Download/index.aspx
+cuda安装官网:https://developer.nvidia.com/cuda-downloads
+cudnn安装官网:https://developer.nvidia.com/rdp/cudnn-download
+pip安装:sudo apt install python3-pip 
+第三方库whl安装包:https://www.lfd.uci.edu/~gohlke/pythonlibs/
+conda安装:https://www.anaconda.com/products/individual#Downloads miniconda:https://docs.conda.io/en/latest/miniconda.html
+ubuntu镜像下载:https://releases.ubuntu.com/
+```
