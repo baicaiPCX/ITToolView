@@ -226,7 +226,8 @@ tensorflow安装官网:https://www.tensorflow.org/install/pip?hl=zh-cn（pip包:
 nvidia驱动安装官网:https://www.nvidia.com/Download/index.aspx
 cuda安装官网:https://developer.nvidia.com/cuda-downloads
 cudnn安装官网:https://developer.nvidia.com/rdp/cudnn-download
-pip安装:sudo apt install python3-pip 
+pip安装:sudo apt install python3-pip
+在pip官网搜索whl包:https://pypi.org/
 第三方库whl安装包:https://www.lfd.uci.edu/~gohlke/pythonlibs/
 conda安装:https://www.anaconda.com/products/individual#Downloads miniconda:https://docs.conda.io/en/latest/miniconda.html
 ubuntu镜像下载:https://releases.ubuntu.com/
