@@ -232,3 +232,6 @@ pip安装:sudo apt install python3-pip
 conda安装:https://www.anaconda.com/products/individual#Downloads miniconda:https://docs.conda.io/en/latest/miniconda.html
 ubuntu镜像下载:https://releases.ubuntu.com/
 ```
+```
+ubuntu16配置x11vnc:https://blog.csdn.net/tangkai_prc/article/details/77674671
+```
