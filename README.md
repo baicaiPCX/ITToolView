@@ -235,3 +235,6 @@ ubuntu镜像下载:https://releases.ubuntu.com/
 ```
 ubuntu16配置x11vnc:https://blog.csdn.net/tangkai_prc/article/details/77674671
 ```
+```
+vscode插件下载:https://marketplace.visualstudio.com/
+```
