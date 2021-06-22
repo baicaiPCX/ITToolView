@@ -264,3 +264,23 @@ ubuntu设置python3为默认python:
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7   1
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5   2
 ```
+```
+ubuntu配置本地apt源:https://www.modb.pro/db/11937
+apt-get install apt-mirror
+lsb_release -a
+#
+No LSB modules are available.
+    Distributor ID: Ubuntu
+    Description:    Ubuntu 16.04 LTS
+    Release:    16.04
+    Codename:   xenial
+#
+vim /etc/apt/mirror.list
+apt-miiror
+apt-get install apache2
+ln -s /var/spool/apt-mirror/mirror/mirrors.aliyun.com/ubuntu /var/www/html/ubuntu
+
+```
+```
+python开启文件的http服务:python3 -m http.server
+```
