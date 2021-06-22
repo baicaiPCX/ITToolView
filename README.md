@@ -254,3 +254,13 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ pandas
 pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
 pip config set install.trusted-host https://mirrors.aliyun.com
 ```
+```
+ubuntu设置pip3为默认pip:
+sudo update-alternatives --install /usr/bin/pip pip /usr/bin/pip2 1
+sudo update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 2
+sudo update-alternatives --config pip
+######
+ubuntu设置python3为默认python:
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7   1
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5   2
+```
