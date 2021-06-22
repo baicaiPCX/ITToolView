@@ -238,3 +238,19 @@ ubuntu16配置x11vnc:https://blog.csdn.net/tangkai_prc/article/details/77674671
 ```
 vscode插件下载:https://marketplace.visualstudio.com/
 ```
+```
+ubuntu修改pip源:
+1、长久使用
+sudo gedit ~/.pip/pip.conf
+# input begin
+[global]
+index-url = https://mirrors.aliyun.com/pypi/simple/
+[install]
+trusted-host = https://mirrors.aliyun.com
+# input end
+2、临时使用
+pip install -i https://mirrors.aliyun.com/pypi/simple/ pandas
+3、通过命令行配置
+pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
+pip config set install.trusted-host https://mirrors.aliyun.com
+```
