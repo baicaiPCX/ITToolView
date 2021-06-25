@@ -284,3 +284,7 @@ ln -s /var/spool/apt-mirror/mirror/mirrors.aliyun.com/ubuntu /var/www/html/ubunt
 ```
 python开启文件的http服务:python3 -m http.server
 ```
+```
+python根据正则表达式访问文件目录下的文件:glob
+python一版的访问文件操作:os
+```
