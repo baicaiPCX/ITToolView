@@ -288,3 +288,16 @@ python开启文件的http服务:python3 -m http.server
 python根据正则表达式访问文件目录下的文件:glob
 python一版的访问文件操作:os
 ```
+```
+python开启并发http服务:
+import socketserver
+import http.server
+class ThreadedHTTPServer(socketserver.ThreadingMixIn,http.server.HTTPServer):
+    daemon_threads=True
+port=8000
+server=ThreadedHTTPServer(('',port),http.server.SimpleHTTPRequestHandler)
+try:
+    server.serve_forever()
+except KeyboardInterrupt:
+    pass
+```
