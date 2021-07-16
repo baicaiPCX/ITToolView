@@ -301,3 +301,8 @@ try:
 except KeyboardInterrupt:
     pass
 ```
+```
+解决显存暂用：
+fuser -v /dev/nvidia*
+然后用kill -9 杀死所有PID
+```
