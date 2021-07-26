@@ -306,3 +306,9 @@ except KeyboardInterrupt:
 fuser -v /dev/nvidia*
 然后用kill -9 杀死所有PID
 ```
+```
+ubuntu连接远程windows:
+sudo apt install rdesktop
+windows设置：计算机---属性---远程设置---远程，勾选：允许远程连接到此计算机。去掉默认勾选：仅允许运行使用网络级别验证...，（如果不取消这个，在运行时会出现“ERROR: recv: 连接被对端重置”）
+rdesktop -f -a 16  192.168.1.112
+```
