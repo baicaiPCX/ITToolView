@@ -329,3 +329,7 @@ Node.js:服务端js运行环境；
 ```
 renderDoc:linux、windows、andrio上的GPU分析工具，可以单步执行shader。
 ```
+
+```
+求两个点云之间的变换用：procrustes 分析
+```
