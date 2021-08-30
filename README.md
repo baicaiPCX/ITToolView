@@ -333,3 +333,6 @@ renderDoc:linux、windows、andrio上的GPU分析工具，可以单步执行shad
 ```
 求两个点云之间的变换用：procrustes 分析
 ```
+```
+python操作XML文件:xlm.doc.minidom
+```
