@@ -336,3 +336,8 @@ renderDoc:linux、windows、andrio上的GPU分析工具，可以单步执行shad
 ```
 python操作XML文件:xlm.doc.minidom
 ```
+```
+pyinstaller:对python脚本打包成可执行文件，支持windows、macOS。
+pip install pyinstaller
+pyinstaller -F python_file
+```
