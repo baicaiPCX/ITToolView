@@ -341,3 +341,6 @@ pyinstaller:对python脚本打包成可执行文件，支持windows、macOS。
 pip install pyinstaller
 pyinstaller -F python_file
 ```
+```
+cmake构建x64架构:cmake -A x64 path
+```
