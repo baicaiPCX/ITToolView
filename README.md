@@ -344,3 +344,10 @@ pyinstaller -F python_file
 ```
 cmake构建x64架构:cmake -A x64 path
 ```
+```
+免费开源的数学作图工具：GeoGebra 
+下载地址：https://www.geogebra.org/download
+```
+```
+类似于企业微信、钉钉这样的团队交流工具（跨平台）:BearyChat
+```
