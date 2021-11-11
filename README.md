@@ -363,3 +363,6 @@ ubuntu系统永久设置环境变量:
 1.4 在~/.bashrc文件里面添加(该文件被~/.profile配置，对当前用户有效)
 2 执行 source $config_file 生效当前配置
 ```
+```
+类似于make构建工程（支持c++、python、java）:bazel
+```
