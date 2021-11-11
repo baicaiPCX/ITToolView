@@ -366,3 +366,6 @@ ubuntu系统永久设置环境变量:
 ```
 类似于make构建工程（支持c++、python、java）:bazel
 ```
+```
+可微的图形渲染:tensorflow_graphics(cpu)/tensorflow_graphics_gpu(gpu)
+```
