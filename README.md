@@ -223,6 +223,7 @@ pytorch的图神经网络运算库:torch_geometric
 ```
 pytorch安装官网:https://pytorch.org/get-started/locally/#start-locally
 tensorflow安装官网:https://www.tensorflow.org/install/pip?hl=zh-cn（pip包:https://pypi.org/project/tensorflow/#files)
+tensorflow配置表:https://tensorflow.google.cn/install/source#linux
 nvidia驱动安装官网:https://www.nvidia.com/Download/index.aspx
 cuda安装官网:https://developer.nvidia.com/cuda-downloads
 cudnn安装官网:https://developer.nvidia.com/rdp/cudnn-download
