@@ -369,3 +369,30 @@ ubuntu系统永久设置环境变量:
 ```
 可微的图形渲染:tensorflow_graphics(cpu)/tensorflow_graphics_gpu(gpu)
 ```
+```
+交互式笔记本：Jupyter Notebook,支持运行40多种编程语言，便于创建和共享文学化程序文档，支持实时代码，数学方程，可视化和 markdown.
+1、安装:
+pip install jupyter
+2、生成配置文件：
+jupyter notebook --generate-config
+3、生成SHA1加密的密钥，保存密钥：
+python # 进入python编辑环境 
+>>> from notebook.auth import passwd 
+>>> passwd()
+4、修改配置文件：
+vim jupyter_notebook_config.py（然后在文末加入以下代码）
+c = get_config()
+c.IPKernelApp.pylab = 'inline'
+c.NotebookApp.ip = '0.0.0.0' # 指定访问ip '0.0.0.0' 代表所有ip均可访问   ‘*’ 部分也可
+c.NotebookApp.open_browser = False  # 禁止自动打开浏览器
+c.NotebookApp.allow_root = True        # 以root身份运行
+c.NotebookApp.password = 'sha1:**********************' # 刚才生成的秘钥
+c.NotebookApp.port = 7777           # 指定端口，默认8888
+c.NotebookApp.notebook_dir = '/data/jupyter-root'     # 指定工作目录
+c.PAMAuthenticator.encoding = 'utf8'  #指定utf-8编码，解决读取中文路径或者文件乱码问题
+c.NotebookApp.allow_remote_access = True # 允许远程访问
+5、启动服务：
+jupyter notebook --config jupyter_notebook_config.py
+6、浏览器访问
+http://{{IP}}:{{PORT}}/
+```
