@@ -396,3 +396,11 @@ jupyter notebook --config jupyter_notebook_config.py
 6、浏览器访问
 http://{{IP}}:{{PORT}}/
 ```
+```
+jupyter显示网页：
+1、安装IPython：
+pip install --upgrade IPython
+2、建立代理页面:
+from IPython.display import IFrame
+IFrame(src='http://chenqionghe.cnblogs.com', width=1000, height=600)
+```
