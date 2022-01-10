@@ -344,6 +344,14 @@ pyinstaller -F python_file
 ```
 ```
 cmake构建x64架构:cmake -A x64 path
+
+# win编译命令
+cmake .. -G "Visual Studio 16"
+cmake --build . --config Release
+
+# Linux/mac编译命令
+cmake .. -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release
+cmake --build .
 ```
 ```
 免费开源的数学作图工具：GeoGebra 
