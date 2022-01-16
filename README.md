@@ -412,3 +412,10 @@ pip install --upgrade IPython
 from IPython.display import IFrame
 IFrame(src='http://chenqionghe.cnblogs.com', width=1000, height=600)
 ```
+```
+windows配置cmake的编译器:
+MinGW:只支持32位程序
+MinGW-w64:基于MinGW,可以支持64位程序
+Cygwin：可以提供类Unix环境
+TDM-GCC: 基于MinGW与MinGW-w64,安装比较简单，可以直接在power shell使用gcc命令
+```
