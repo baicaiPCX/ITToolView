@@ -429,4 +429,10 @@ git config --global core.autocrlf true #Git可以在你push时自动地把行结
 git config --global core.autocrlf input #Linux或Mac系统使用LF作为行结束符，当一个以CRLF为行结束符的文件不小心被引入时你肯定想进行修正，把core.autocrlf设置成input来告诉 Git 在push时把CRLF转换成LF，pull时不转换。
 git config --global core.autocrlf false #在本地和代码库中都保留CRLF，无论pull还是push都不变，代码库什么样，本地还是什么样子。
 ```
-
+```
+编译器：
+1、MSVC->微软的windows系统。
+2、GCC->Linux系统。
+3、CLANG->apple系统，从GCC发展而来，后端采用LLVM编译器。
+4、LLVM，典型的三段式编译器：前端（主要负责词法和语法分析，将源代码转化为抽象语法树(中间代码))、优化器（在前端的基础上，对得到的中间代码进行优化，使代码更加高效）、后端（将已经优化的中间代码转化为针对各自平台的机器）。
+```
