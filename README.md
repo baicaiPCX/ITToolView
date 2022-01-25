@@ -419,3 +419,14 @@ MinGW-w64:基于MinGW,可以支持64位程序
 Cygwin：可以提供类Unix环境
 TDM-GCC: 基于MinGW与MinGW-w64,安装比较简单，可以直接在power shell使用gcc命令
 ```
+```
+运行c++报一大堆错误可能的原因：
+1、引用头文件“#include"xx"加入到了"#program_once"之后了；
+2、文件编码问题，比如UTF-8；
+3、回车空格格式问题，Linux/Mac 一般是LF，windows是CRLF；
+解决跨平台的格式问题：
+git config --global core.autocrlf true #Git可以在你push时自动地把行结束符CRLF转换成LF，而在pull代码时把LF转换成CRLF。
+git config --global core.autocrlf input #Linux或Mac系统使用LF作为行结束符，当一个以CRLF为行结束符的文件不小心被引入时你肯定想进行修正，把core.autocrlf设置成input来告诉 Git 在push时把CRLF转换成LF，pull时不转换。
+git config --global core.autocrlf false #在本地和代码库中都保留CRLF，无论pull还是push都不变，代码库什么样，本地还是什么样子。
+```
+
