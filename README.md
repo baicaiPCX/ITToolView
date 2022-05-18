@@ -439,3 +439,6 @@ git config --global core.autocrlf false #在本地和代码库中都保留CRLF�
 ```
 python存储对象的标准库:pickle,CPickle
 ```
+```
+网上3d模型:https://www.artec3d.com/3d-models
+```
