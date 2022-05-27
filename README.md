@@ -451,3 +451,14 @@ import time
 time.perf_counter() #返回秒，包括睡眠时间
 time.process_counter() #返回秒，不包括睡眠时间
 ```
+```
+git远程仓库迁移：
+1）保持git和gitlab上的用户名的密码一样，在新gitlab上建好需要的group，仓库可以不用建；
+2）进入本地仓库的目录，打开Git Bash;
+3）git remote add gitlab http://gitlab.xxx.io/<groupname>/<projectname>
+4)  git remote   查看新旧两个remote，知道的可以跳过
+5)  git push gitlab refs/remotes/<oldremote>/*:refs/heads/*
+6)  git pull <oldremote> --tags
+7)  git push gitlab --tags
+如果 后续旧remote上更新，可以再执一下5）~7）步即同步。
+```
