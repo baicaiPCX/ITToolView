@@ -445,3 +445,9 @@ python存储对象的标准库:pickle,CPickle
 ```
 可视化图形图像数据的，开源的，跨平台的，支持python/c++/java语言的可视化类库：VTK
 ```
+```
+python测试程序时间:
+import time
+time.perf_counter() #返回秒，包括睡眠时间
+time.process_counter() #返回秒，不包括睡眠时间
+```
