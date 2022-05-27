@@ -462,3 +462,7 @@ git远程仓库迁移：
 7)  git push gitlab --tags
 如果 后续旧remote上更新，可以再执一下5）~7）步即同步。
 ```
+```
+git config 用户名和密码只需要配置一次:
+git config –global credential.helper store
+```
