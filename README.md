@@ -444,6 +444,7 @@ python存储对象的标准库:pickle,CPickle
 ```
 ```
 可视化图形图像数据的，开源的，跨平台的，支持python/c++/java语言的可视化类库：VTK
+PyVista: VTK的高级封装, 文档：https://docs.pyvista.org/examples/index.html
 ```
 ```
 python测试程序时间:
