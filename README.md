@@ -142,7 +142,8 @@ Pytorch 定义学习率调整 torch.optim.lr_scheduler
 Ios支持的gpu并行图形接口:opengl es、Metal(是苹果原生，可以支持gpu多线程)
 ```
 ```
-Python处理点云的包：open3d
+Python处理点云或者三角网格的包：open3d
+读取带纹理图片的数据：o3d.io.read_triangle_mesh(path,True)
 ```
 ```
 远程访问公司内网及内部系统的app：EasyConnect
