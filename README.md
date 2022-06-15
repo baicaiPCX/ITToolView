@@ -1,5 +1,18 @@
 # ITToolView
+```
+python py文件转pyd
+-->setup.py:
+from distutils.core import setup
+from Cython.Build import cythonize
 
+setup(
+    name='addpyd',
+    ext_modules=cythonize("pydt.py"),
+)
+
+-->转:
+python setup.py build_ext --inplace
+```
 ```
 python 选择文件路径对话框：
 import tkinter as tk
