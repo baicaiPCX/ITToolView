@@ -1,6 +1,18 @@
 # ITToolView
 
 ```
+python 选择文件路径对话框：
+import tkinter as tk
+from tkinter import filedialog
+
+root = tk.Tk()
+root.withdraw()
+
+Folderpath = filedialog.askdirectory() #获得选择好的文件夹
+Filepath = filedialog.askopenfilename() #获得选择好的文件
+```
+
+```
 cmake文件里面的find_package(OpenCV):查找OpenCV库。原理在pkg-config里面.
 ```
 ```
