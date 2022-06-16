@@ -1,5 +1,9 @@
 # ITToolView
 ```
+pycryptodome python强大的加密包
+```
+
+```
 python 对对象进行二进制序列化和反序列化（包括字典转bytes，numpy转bytes）：pickle
 pickle.dumps()
 pickle.loads()
