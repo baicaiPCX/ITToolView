@@ -1,5 +1,10 @@
 # ITToolView
 ```
+python 对对象进行二进制序列化和反序列化（包括字典转bytes，numpy转bytes）：pickle
+pickle.dumps()
+pickle.loads()
+```
+```
 python py文件转pyd
 -->setup.py:
 from distutils.core import setup
