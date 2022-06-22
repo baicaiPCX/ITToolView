@@ -1,5 +1,11 @@
 # ITToolView
 ```
+神经网络结构展示（论文里面放图）:
+PlotNeuralNet:https://github.com/HarisIqbal88/PlotNeuralNet
+ConvNetDraw:https://github.com/cbovar/ConvNetDraw
+NN-SVG:http://alexlenail.me/NN-SVG/
+```
+```
 开源的通用的(C/C++)反编译工具：reko
 地址:https://github.com/uxmal/reko
 ```
