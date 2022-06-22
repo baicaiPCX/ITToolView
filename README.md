@@ -1,5 +1,14 @@
 # ITToolView
 ```
+理解神经网络（神经网络可视化）：
+1）可视化卷积核(Activation Maximization)
+PytorchRevelio:https://github.com/farhad-dalirani/PytorchRevelio
+2）可视化特征图
+https://github.com/waallf/Viusal-feature-map
+3）可视化激活热力图(Class Activation Mapping,saliency map)
+pytorch-grad-cam:https://github.com/jacobgil/pytorch-grad-cam
+```
+```
 神经网络结构展示（论文里面放图）:
 PlotNeuralNet:https://github.com/HarisIqbal88/PlotNeuralNet
 ConvNetDraw:https://github.com/cbovar/ConvNetDraw
