@@ -1,5 +1,16 @@
 # ITToolView
 ```
+开源的通用的(C/C++)反编译工具：reko
+地址:https://github.com/uxmal/reko
+```
+```
+VC dumpbin工具：
+# 查看dll接口函数
+dumpbin /exports xx.dll
+# 查看exe、dll依赖的动态库
+dumpbin /dependents xx.dll
+```
+```
 python 汉语翻译成拼音包:pip install pypinyin
 
 # 不带声调的(style=pypinyin.NORMAL)
