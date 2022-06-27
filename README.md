@@ -1,5 +1,19 @@
 # ITToolView
 ```
+C++利用输入输出重定向排除bug:
+#include <iostream>    //cin、cout
+#include <string>      //string
+#include <stdio.h>     //freopen
+using namespace std;
+string name, url;
+//将标准输入流重定向到 in.txt 文件
+freopen("in.txt", "r", stdin);
+cin >> name >> url;
+//将标准输出重定向到 out.txt文件
+freopen("out.txt", "w", stdout); 
+cout << name << "\n" << url;
+```
+```
 理解神经网络（神经网络可视化）：
 1）可视化卷积核(Activation Maximization)
 PytorchRevelio:https://github.com/farhad-dalirani/PytorchRevelio
