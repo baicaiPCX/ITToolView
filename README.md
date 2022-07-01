@@ -1,5 +1,9 @@
 # ITToolView
 ```
+python开发2D游戏库：pygame
+python开发3D游戏库：panda3D
+```
+```
 C++利用输入输出重定向排除bug:
 #include <iostream>    //cin、cout
 #include <string>      //string
