@@ -66,6 +66,11 @@ def yinjie(word):
 ```
 ```
 pycryptodome python强大的加密包
+linux install:
+pip install pycryptodome
+
+windows install:
+pip install pycryptodomex
 ```
 
 ```
