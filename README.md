@@ -1,5 +1,9 @@
 # ITToolView
 ```
+pdf 文件操作:PyPDF2
+pip install PyPDF2
+```
+```
 C++ 执行文件相关的内置宏:
 __FUNCTION__ ：函数名
 __TIME__ ：文件运行的时间
