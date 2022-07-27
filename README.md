@@ -1,5 +1,13 @@
 # ITToolView
 ```
+git查看分支关系图
+git log --graph --decorate --oneline --simplify-by-decoration --all
+--decorate 标记会让git log显示每个commit的引用(如:分支、tag等)
+--oneline 一行显示
+--simplify-by-decoration 只显示被branch或tag引用的commit
+--all 表示显示所有的branch，这里也可以选择，比如我指向显示分支ABC的关系，则将--all替换为branchA branchB branchC
+```
+```
 pdf 文件操作:PyPDF2
 pip install PyPDF2
 ```
