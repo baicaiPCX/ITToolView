@@ -465,6 +465,7 @@ python操作XML文件:xlm.doc.minidom
 pyinstaller:对python脚本打包成可执行文件，支持windows、macOS。
 pip install pyinstaller
 pyinstaller -F python_file
+pyinstaller -F -w python_file --add-binary "path_configfile:abstrace_path" # 打包配置文件
 ```
 ```
 cmake构建x64架构:cmake -A x64 path
