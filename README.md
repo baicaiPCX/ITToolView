@@ -1,5 +1,8 @@
 # ITToolView
 ```
+c++代码转字符串，编写shader语言：#define SHADER_STRING(...) #__VA_ARGS__
+```
+```
 git查看分支关系图
 git log --graph --decorate --oneline --simplify-by-decoration --all
 --decorate 标记会让git log显示每个commit的引用(如:分支、tag等)
