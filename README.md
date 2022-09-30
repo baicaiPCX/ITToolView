@@ -1,5 +1,8 @@
 # ITToolView
 ```
+win10安装git:https://git-scm.com/downloads
+```
+```
 c++代码转字符串，编写shader语言：#define SHADER_STRING(...) #__VA_ARGS__
 ```
 ```
