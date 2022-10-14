@@ -41,17 +41,14 @@ python开发3D游戏库：panda3D
 ```
 ```
 C++利用输入输出重定向排除bug:
-#include <iostream>    //cin、cout
-#include <string>      //string
-#include <stdio.h>     //freopen
+#include<iostream>
+#include<fstream>
 using namespace std;
-string name, url;
-//将标准输入流重定向到 in.txt 文件
-freopen("in.txt", "r", stdin);
-cin >> name >> url;
 //将标准输出重定向到 out.txt文件
-freopen("out.txt", "w", stdout); 
-cout << name << "\n" << url;
+ofstream fout("out.txt"); //文件输出流对象
+streambuf* pOld =cout.rdbuf(fout.rdbuf()); 
+cout << "test" << "\n";
+cout.rdbuf(pOld); //用于恢复 标准输出
 ```
 ```
 理解神经网络（神经网络可视化）：
