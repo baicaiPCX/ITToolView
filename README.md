@@ -1,5 +1,13 @@
 # ITToolView
 ```
+git拉取大项目(仓库代码太大）：
+git clone --depth 1 <url>
+git fetch --unshallow
+git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+git fetch -pv
+git fetch --all
+```
+```
 win10安装git:https://git-scm.com/downloads
 ```
 ```
