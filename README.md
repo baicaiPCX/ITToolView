@@ -1,5 +1,8 @@
 # ITToolView
 ```
+win10好用的bash工具：windows terminal
+```
+```
 git拉取大项目(仓库代码太大）：
 git clone --depth 1 <url>
 git fetch --unshallow
