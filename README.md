@@ -1,5 +1,14 @@
 # ITToolView
 ```
+gunicorn处理flask并发请求:
+pip install gunicorn
+pip install greenlet
+pip install eventlet 
+pip install gevent
+
+gunicorn -w 3 -b 127.0.0.1:5000 app:app
+```
+```
 paraview 跨平台、开源的数据分析和可视化工具
 ```
 ```
