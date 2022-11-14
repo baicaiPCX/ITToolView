@@ -7,6 +7,8 @@ pip install eventlet
 pip install gevent
 
 gunicorn -w 3 -b 127.0.0.1:5000 app:app
+
+ps -ef | grep gunicorn #找到gunicorn进程
 ```
 ```
 paraview 跨平台、开源的数据分析和可视化工具
