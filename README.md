@@ -1,5 +1,9 @@
 # ITToolView
 ```
+ubuntu安装Boost:
+sudo apt-get install libboost-all-dev
+```
+```
 C++程序中读取CmakeList中定义的变量:
 set(a "/home/wsw/test/c++")
 #定义变量，用-D开头，后面跟字符串，相当于一个宏_VAR，其内容是一个字符串,\"是转义字符，${a}是一个引用变量，用上面的set(a "/home/wsw/test/c++")中的字符串替换
