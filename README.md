@@ -1,5 +1,11 @@
 # ITToolView
 ```
+visual c++ 折叠代码块:
+#pragma region name
+
+#pragma endregion name
+```
+```
 查询英文缩写网站:https://www.allacronyms.com/information/abbreviated
 ```
 ```
