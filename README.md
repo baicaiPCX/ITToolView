@@ -1,5 +1,8 @@
 # ITToolView
 ```
+查询英文缩写网站:https://www.allacronyms.com/information/abbreviated
+```
+```
 ubuntu安装Boost:
 sudo apt-get install libboost-all-dev
 ```
