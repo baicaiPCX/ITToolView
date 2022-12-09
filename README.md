@@ -1,5 +1,8 @@
 # ITToolView
 ```
+ubuntu解压zip中文乱码:unzip -O CP936 filename.zip
+```
+```
 visual c++ 折叠代码块:
 #pragma region name
 
