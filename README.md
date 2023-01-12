@@ -1,5 +1,9 @@
 # ITToolView
 ```
+windows运行xxx.ps1文件(ps1文件其实就是powershell脚本):
+powershell先运行命令 set-executionpolicy remotesigned
+```
+```
 windbg 微软发布的轻量化的针对windows的调试器，比vs的调试器更强大.
 ```
 ```
