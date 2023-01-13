@@ -1,5 +1,11 @@
 # ITToolView
 ```
+windows程序开发相关环境变量（没有则自己创建）：
+INCLUDE:头文件搜索路径
+LIB:链接库搜索路径
+Path:命令行文件搜索路径
+```
+```
 windows运行xxx.ps1文件(ps1文件其实就是powershell脚本):
 powershell先运行命令 set-executionpolicy remotesigned
 ```
