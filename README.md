@@ -2,6 +2,9 @@
 ```
 Ninja:类似于make（生成makefile）的编译构建工具，优势是加速编译速度。
 安装：https://ninja-build.org/
+cmake生成ninja文件：
+cmake -G Ninja
+ninja #编译
 ```
 ```
 windows程序开发相关环境变量（没有则自己创建）：
