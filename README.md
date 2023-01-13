@@ -1,5 +1,9 @@
 # ITToolView
 ```
+Ninja:类似于make（生成makefile）的编译构建工具，优势是加速编译速度。
+安装：https://ninja-build.org/
+```
+```
 windows程序开发相关环境变量（没有则自己创建）：
 INCLUDE:头文件搜索路径
 LIB:链接库搜索路径
