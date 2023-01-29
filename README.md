@@ -1,5 +1,11 @@
 # ITToolView
 ```
+nmake：Microsoft Visual Studio中的附带命令，需要安装VS，相当于linux的make
+cmake生成：
+cmake -G "NMake Makefiles" -DCMAKE_BUILD_TYPE=Release ..
+nmake
+```
+```
 Ninja:类似于make（生成makefile）的编译构建工具，优势是加速编译速度。
 安装：https://ninja-build.org/
 cmake生成ninja文件：
