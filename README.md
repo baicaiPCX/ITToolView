@@ -1,5 +1,16 @@
 # ITToolView
 ```
+c++用cpu计时函数测量gpu运行时间：
+#include<time.h>
+#include<cuda_runtime.h>
+long start,end;
+start=clock();
+// 测试代码 
+cudaThreadSynchronize();
+end=clock();
+long t=end-start;//单位ms
+```
+```
 nmake：Microsoft Visual Studio中的附带命令，需要安装VS，相当于linux的make
 cmake生成：
 cmake -G "NMake Makefiles" -DCMAKE_BUILD_TYPE=Release ..
