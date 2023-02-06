@@ -1,5 +1,21 @@
 # ITToolView
 ```
+性能分析工具：
+1、WPT
+微软公司开发，用于分析windows设备性能，主要分析cpu、内存、Disk I/O之间的性能瓶颈，有timeline
+2、Nsight
+NVIDIA开发(nvprof->Visual Profiler->Nsight)，支持windows、Linux,主要分析NVIDIA gpu计算、显存、cpu调度、数据传输之间的性能瓶颈，有timeline，且支持nvtx注释；
+nvtx可以看到哪些时间段处于代码哪个阶段，c++用法：
+#include"nvToolsExt.h"
+nvtxRangePushA("...");
+...测试代码部分
+nvtxRangePop("...");
+3、VTune
+由Intel开发，用于Intel设备性能分析，通过火焰图以及建议更容易看到性能瓶颈，但是上手比较难
+4、perf
+Linux系统上的cpu性能分析，类似于WPT。
+```
+```
 PEView 查看pe文件结构以及逆向分析pe文件的工具
 ```
 ```
