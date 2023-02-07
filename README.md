@@ -54,6 +54,7 @@ powershell先运行命令 set-executionpolicy remotesigned
 ```
 ```
 windbg 微软发布的轻量化的针对windows的调试器，比vs的调试器更强大.
+windbg预览版 是windbg的改进版，可以支持timeline.
 ```
 ```
 ubuntu解压zip中文乱码:unzip -O CP936 filename.zip
