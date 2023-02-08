@@ -1,5 +1,8 @@
 # ITToolView
 ```
+git cherry-pick hash值:(merge)合并某次提交
+```
+```
 1、windows系统的文件搜索工具:everything
 2、ubuntu系统的文件搜索命令
 1) locate +文件名
