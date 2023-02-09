@@ -1,5 +1,8 @@
 # ITToolView
 ```
+ubuntu 查看文件路径快捷方式: ctl+L
+```
+```
 git cherry-pick hash值:(merge)合并某次提交
 ```
 ```
