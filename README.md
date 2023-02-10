@@ -1,6 +1,7 @@
 # ITToolView
 ```
 vscode 可视化compare的扩展工具:git history.(可以根据分支、作者筛选log)
+git 命令：git show hash值
 ```
 ```
 ubuntu 查看文件路径快捷方式: ctl+L
