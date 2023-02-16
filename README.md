@@ -1,5 +1,12 @@
 # ITToolView
 ```
+win10在powershell设置环境变量（可以在python中os.environ使用):env
+1、列出环境变量:ls env or ls env:Test*
+2、添加环境变量:$env:NEWV="."
+3、删除环境变量:del env:windir
+4、查看环境变量值:$env:windir
+```
+```
 vscode 可视化compare的扩展工具:git history.(可以根据分支、作者筛选log)
 git 命令：git show hash值
 ```
