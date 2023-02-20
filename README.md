@@ -1,5 +1,10 @@
 # ITToolView
 ```
+procdump windows和linux跨平台的dump抓取工具，也可以监视cpu利用率和内内存
+介绍：https://learn.microsoft.com/zh-cn/sysinternals/downloads/procdump
+捕捉进程崩溃：procdump -ma -t
+```
+```
 win10在powershell设置环境变量（可以在python中os.environ使用):env
 1、列出环境变量:ls env or ls env:Test*
 2、添加环境变量:$env:NEWV="."
