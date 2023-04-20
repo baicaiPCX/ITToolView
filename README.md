@@ -1,5 +1,9 @@
 # ITToolView
 ```
+pytorch训练过程中可视化工具:tensorboard(结合torchvision)、visdom
+可以可视化图表、图片、文本.
+```
+```
 可以写代码的ai插件:github copilot(openai提供的codtex)
 ```
 ```
