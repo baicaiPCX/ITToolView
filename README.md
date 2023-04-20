@@ -1,5 +1,18 @@
 # ITToolView
 ```
+git diff文本编辑：
+1.配置
+先把vscode作为git默认编辑器：git config --global core.editor "code --wait"
+用vscode 打开 .gitconfig文件：git config --global -e
+加上：
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+2.使用
+git difftool取代git diff命令
+```
+```
 pytorch训练过程中可视化工具:tensorboard(结合torchvision)、visdom
 可以可视化图表、图片、文本.
 ```
