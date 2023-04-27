@@ -1,5 +1,8 @@
 # ITToolView
 ```
+win10好用的解压缩软件:https://www.7-zip.org/
+```
+```
 git diff文本编辑：
 1.配置
 先把vscode作为git默认编辑器：git config --global core.editor "code --wait"
