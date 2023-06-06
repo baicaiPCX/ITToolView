@@ -1,5 +1,9 @@
 # ITToolView
 ```
+ubuntu 打印目录结构:
+tree -L 2 dirname # dirname下面的2级目录结构
+```
+```
 win10好用的解压缩软件:https://www.7-zip.org/
 ```
 ```
