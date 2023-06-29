@@ -1,5 +1,13 @@
 # ITToolView
 ```
+python高效的矩阵操作库（爱因斯坦求和）:einsum
+pytorch、TensorFlow高效的张量操作库:einopt
+pytorch自带的高效张量操作(爱因斯坦求和):einsum
+```
+```
+apex:NVIDIA官方推出的混合精度训练pytorch扩展库（float16,float32）
+```
+```
 ubuntu监视cpu使用：htop
 ```
 ```
