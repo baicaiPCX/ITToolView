@@ -1,5 +1,10 @@
 # ITToolView
 ```
+qt学习文档：https://qtdocs.pyvista.org/usage.html
+python库：PySide2(推荐，开源)、pyqt
+搭建3Ddemo:pyvistaqt https://qtdocs.pyvista.org/usage.html
+```
+```
 python高效的矩阵操作库（爱因斯坦求和）:einsum
 pytorch、TensorFlow高效的张量操作库:einopt
 pytorch自带的高效张量操作(爱因斯坦求和):einsum
