@@ -3,6 +3,10 @@
 qt学习文档：https://qtdocs.pyvista.org/usage.html
 python库：PySide2(推荐，开源)、pyqt
 搭建3Ddemo:pyvistaqt https://qtdocs.pyvista.org/usage.html
+PySide2搭建qt程序：
+qt界面设计工具,最后生成ui文件(和qrc文件如果有资源):designer
+将ui文件转py文件:pyside2-uic.exe main.ui -o mainview.py
+将qrc文件转py文件:pyside2-rcc.exe
 ```
 ```
 python高效的矩阵操作库（爱因斯坦求和）:einsum
