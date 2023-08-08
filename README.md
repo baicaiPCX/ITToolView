@@ -1,5 +1,10 @@
 # ITToolView
 ```
+win10实用的小工具:PowerToys
+下载路径:https://github.com/microsoft/PowerToys/releases
+里面有：颜色拾取器，正则重命名，窗口布局，文本提取器，屏幕标尺等工具
+```
+```
 qt学习文档：https://qtdocs.pyvista.org/usage.html
 python库：PySide2(推荐，开源)、pyqt
 搭建3Ddemo:pyvistaqt https://qtdocs.pyvista.org/usage.html
