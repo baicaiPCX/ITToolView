@@ -1,5 +1,14 @@
 # ITToolView
 ```
+scipy多元B样条:
+import numpy as np
+from scipy.interpolate import splev, splprep
+x = np.linspace(0, 2, 20)
+y = np.sqrt(1 - (x - 1) ** 2)
+tck, u = splprep([x, y], s = 0,k=2) # tck为B样条参数表示，u为控制点的弦长参数，k为样条次数
+x1, y1 = splev(u,tck,der=1) # 求导，u为输入的弦长参数，der为导数阶数
+```
+```
 win10实用的小工具:PowerToys
 下载路径:https://github.com/microsoft/PowerToys/releases
 里面有：颜色拾取器，正则重命名，窗口布局，文本提取器，屏幕标尺等工具
