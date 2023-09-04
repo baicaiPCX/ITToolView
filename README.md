@@ -1,5 +1,10 @@
 # ITToolView
 ```
+Qt中的Model/View说明：
+https://blog.csdn.net/mziing/article/details/117693117
+https://muzing.top/posts/5ff61cbd/
+```
+```
 scipy多元B样条:
 import numpy as np
 from scipy.interpolate import splev, splprep
