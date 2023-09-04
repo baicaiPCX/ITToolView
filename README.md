@@ -37,6 +37,8 @@ vs 调试时修改变量(两种方法):
 ```
 ubuntu 打印目录结构:
 tree -L 2 dirname # dirname下面的2级目录结构
+win10:
+tree /F subdir
 ```
 ```
 win10好用的解压缩软件:https://www.7-zip.org/
