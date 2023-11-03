@@ -692,6 +692,7 @@ pyinstaller:对python脚本打包成可执行文件，支持windows、macOS。
 pip install pyinstaller
 pyinstaller -F python_file
 pyinstaller -F -w python_file --add-binary "path_configfile:abstrace_path" # 打包配置文件
+pyinstaller -F -w --onefile python_file --add-data "./utiles:utiles" --add-data "./labelme;labelme" # 打包多个py文件，依赖的py文件的第三方库import要放到主pyhon文件里面
 ```
 ```
 cmake构建x64架构:cmake -A x64 path
