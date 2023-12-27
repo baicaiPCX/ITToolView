@@ -1,6 +1,6 @@
 # ITToolView
 ```
-tlgf：用于渲染的几何数据
+gltf：用于渲染的几何数据个数
 读取工具：tinygltf（https://github.com/syoyo/tinygltf）
 ```
 ```
