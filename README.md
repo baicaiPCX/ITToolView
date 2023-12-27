@@ -1,5 +1,9 @@
 # ITToolView
 ```
+tlgf：用于渲染的几何数据
+读取工具：tinygltf（https://github.com/syoyo/tinygltf）
+```
+```
 logicflow 前端搭建流程图js库
 ```
 ```
