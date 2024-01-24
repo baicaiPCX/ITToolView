@@ -1,5 +1,10 @@
 # ITToolView
 ```
+python从文本读取数据：
+import pandas
+datas=pandas.read_table(patht,header=None,delim_whitespace=True,encoding="UTF-8").to_numpy()
+```
+```
 win10删除文件/文件夹访问权限:
 takeown /F FileName /r /d y # 给文件夹/文件FileName赋予本机管理员权限
 cacls FileName /t /e /g Administrators:F # 修改文件夹/文件FileName的访问权限(赋删除权限)
