@@ -1,5 +1,10 @@
 # ITToolView
 ```
+win10删除文件/文件夹访问权限:
+takeown /F FileName /r /d y # 给文件夹/文件FileName赋予本机管理员权限
+cacls FileName /t /e /g Administrators:F # 修改文件夹/文件FileName的访问权限(赋删除权限)
+```
+```
 gltf：用于渲染的几何数据个数
 读取工具：tinygltf（https://github.com/syoyo/tinygltf）
 ```
