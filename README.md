@@ -1,5 +1,9 @@
 # ITToolView
 ```
+git获取指定代码提交作者:
+git blame <file> -L 121,122
+```
+```
 python从文本读取数据：
 import pandas
 datas=pandas.read_table(patht,header=None,delim_whitespace=True,encoding="UTF-8").to_numpy()
