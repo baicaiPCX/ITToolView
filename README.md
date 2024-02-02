@@ -2,6 +2,8 @@
 ```
 git获取指定代码提交作者:
 git blame <file> -L 121,122
+git查看指定代码最近的提交日志:
+git annotate <file> -L 121,122
 ```
 ```
 python从文本读取数据：
