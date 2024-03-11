@@ -7,6 +7,10 @@ git获取指定代码提交作者:
 git blame <file> -L 121,122
 git查看指定代码最近的提交日志:
 git annotate <file> -L 121,122
+git 压缩commit记录：
+git rebase -i HEAD~n // n为要压缩的记录个数
+编辑弹出的文本框，第2~n的类型改为 squesh；
+最后编辑弹出的文本框，提交新记录
 ```
 ```
 python从文本读取数据：
