@@ -1,5 +1,8 @@
 # ITToolView
 ```
+linux查看库/可执行文件链接状态：ldd xxx
+```
+```
 vscode在终端打开指定文件:code <file>
 ```
 ```
