@@ -1,5 +1,10 @@
 # ITToolView
 ```
+常用模型量化指标：PR曲线,AP,AR,mAP,ROC曲线,AUC
+实现代码:from sklearn.metrics import precision_recall_curve,roc_curve,auc
+讲解:https://blog.csdn.net/qq_41917697/article/details/115511115
+```
+```
 linux查看库/可执行文件链接状态：ldd xxx
 ```
 ```
