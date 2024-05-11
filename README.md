@@ -1,6 +1,6 @@
 # ITToolView
 ```
-常用模型量化指标：PR曲线,AP,AR,mAP,ROC曲线,AUC
+常用分类模型量化指标：PR曲线(确定最优score阈值),AP,AR,mAP,ROC曲线,AUC(评判模型性能)
 实现代码:from sklearn.metrics import precision_recall_curve,roc_curve,auc
 讲解:https://blog.csdn.net/qq_41917697/article/details/115511115
 ```
