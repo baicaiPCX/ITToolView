@@ -9,6 +9,7 @@ linux查看库/可执行文件链接状态：ldd xxx
 ```
 ```
 vscode在终端打开指定文件:code <file>
+vscode debug c/c++:https://blog.csdn.net/MRZHUGH/article/details/131581617
 ```
 ```
 git获取指定代码提交作者:
