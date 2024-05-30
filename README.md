@@ -1,5 +1,11 @@
 # ITToolView
 ```
+c++程序计时函数：
+clock():精度在10ms，对于sleep和多线程的测量时间会比真实耗时大很多；
+time():获取当前日历时间，精度在1ms；
+gettimeofday():精度为微妙(推荐)
+```
+```
 常用分类模型量化指标：PR曲线(确定最优score阈值),AP,AR,mAP,ROC曲线,AUC(评判模型性能)
 实现代码:from sklearn.metrics import precision_recall_curve,roc_curve,auc
 讲解:https://blog.csdn.net/qq_41917697/article/details/115511115
