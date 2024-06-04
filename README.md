@@ -1,5 +1,16 @@
 # ITToolView
 ```
+win10远程桌面ubuntu：
+# ubuntu设置
+sudo apt-get install xrdp # 安装远程桌面协议
+sudo apt-get install xubuntu-desktop # 安装远程图形界面软件
+sudo service xrdp restart # 启动远程服务
+echo "xfce4-session" > ~/.xsession # 设置默认的会话
+
+# win10连接
+打开远程桌面->输入远程ip地址->输入用户名和密码->等待连接成功
+```
+```
 c++程序计时函数：
 clock():精度在10ms，对于sleep和多线程的测量时间会比真实耗时大很多；
 time():获取当前日历时间，精度在1ms；
