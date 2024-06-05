@@ -1,5 +1,11 @@
 # ITToolView
 ```
+ubuntu用户管理：
+sudo useradd -m test1 # 建立普通用户test1
+sudo passwd test1 # 设置或者修改密码
+sudo userdel test1 # 删除用户test1
+```
+```
 win10远程桌面ubuntu：
 # ubuntu设置
 sudo apt-get install xrdp # 安装远程桌面协议
