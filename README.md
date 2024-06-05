@@ -1,9 +1,13 @@
 # ITToolView
 ```
 ubuntu用户管理：
+# sudo = swith user(root) do
 sudo useradd -m test1 # 建立普通用户test1
 sudo passwd test1 # 设置或者修改密码
 sudo userdel test1 # 删除用户test1
+sudo passwd root # 给root（超级）用户设置密码（第一次登录root）
+su root # 切换到root用户，root也可不写
+exit # 退出当前用户
 ```
 ```
 win10远程桌面ubuntu：
