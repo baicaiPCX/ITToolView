@@ -1,5 +1,11 @@
 # ITToolView
 ```
+python启动终端执行多条命令：
+strCommand="command1 && command2 && command 3"
+os.system(strCommand)
+命令里面输入字符串采用转义字符：strCommand="commandX --path \"path\""
+```
+```
 ubuntu用户管理：
 # sudo = swith user(root) do
 sudo useradd -m test1 # 建立普通用户test1
