@@ -1,5 +1,11 @@
 # ITToolView
 ```
+# 常用ubuntu命令：
+ps -aux 查看用户态所有进程
+ll(=ls -l) 查看文件的详细信息（类型、权限模式、大小、最后修改时间等）
+df -hl 以磁盘分区为单位查看磁盘使用情况
+```
+```
 python启动终端执行多条命令：
 strCommand="command1 && command2 && command 3"
 os.system(strCommand)
