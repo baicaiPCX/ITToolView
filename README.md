@@ -4,6 +4,9 @@
 ps -aux 查看用户态所有进程
 ll(=ls -l) 查看文件的详细信息（类型、权限模式、大小、最后修改时间等）
 df -hl 以磁盘分区为单位查看磁盘使用情况
+lspci 查看PCI(外设连接总线的规范)连接的设备信息
+glxinfo | grep "OpenGL version" 查看环境是集显(Mesa字眼)还是独显(NVIDIA字眼),查看opengl版本
+sudo prime-select nvidia/intel 切换独显/集显(执行后要重启电脑才能生效)
 ```
 ```
 python启动终端执行多条命令：
