@@ -1,5 +1,8 @@
 # ITToolView
 ```
+viterbit算法求解马尔可夫模型:https://blog.csdn.net/weixin_42509541/article/details/123812603
+```
+```
 皮肤美白算法：https://blog.csdn.net/qq_35759272/article/details/109467829
 log公式:v(x,y)=log(pixl(x,y)*(b-1)+1)/log(b);b推荐为 2-5
 ```
