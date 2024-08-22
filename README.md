@@ -1,5 +1,9 @@
 # ITToolView
 ```
+皮肤美白算法：https://blog.csdn.net/qq_35759272/article/details/109467829
+log公式:v(x,y)=log(pixl(x,y)*(b-1)+1)/log(b);b推荐为 2-5
+```
+```
 # 常用ubuntu命令：
 ps -aux 查看用户态所有进程
 killall <程序名称> 杀死该程序名称的所有进程
