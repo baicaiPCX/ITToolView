@@ -40,6 +40,7 @@ sudo apt-get install xrdp # 安装远程桌面协议
 sudo apt-get install xubuntu-desktop # 安装远程图形界面软件
 sudo service xrdp restart # 启动远程服务
 echo "xfce4-session" > ~/.xsession # 设置默认的会话
+# 或者按照这个配置：https://blog.csdn.net/Eng_ingLi/article/details/132081080
 
 # win10连接
 打开远程桌面->输入远程ip地址->输入用户名和密码->等待连接成功
