@@ -1,5 +1,8 @@
 # ITToolView
 ```
+huggingface 下载模型和数据：https://padeoe.com/huggingface-large-models-downloader/
+```
+```
 viterbit算法求解马尔可夫模型:https://blog.csdn.net/weixin_42509541/article/details/123812603
 ```
 ```
