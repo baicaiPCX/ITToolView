@@ -10,6 +10,8 @@ $env:HF_HUB_ENABLE_HF_TRANSFER = 1 #开启加速
 huggingface-cli download --resume-download bigscience/bloom-560m --local-dir bloom-560m
 # 下载数据
 huggingface-cli download --resume-download --repo-type dataset lavita/medical-qa-shared-task-v1-toy
+
+xformers/pytorch/python版本对应关系:https://blog.4c43.work/index.php/archives/87/
 ```
 ```
 viterbit算法求解马尔可夫模型:https://blog.csdn.net/weixin_42509541/article/details/123812603
