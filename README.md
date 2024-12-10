@@ -59,6 +59,8 @@ echo "xfce4-session" > ~/.xsession # 设置默认的会话
 # win10连接
 打开远程桌面->输入远程ip地址->输入用户名和密码->等待连接成功
 #配置桌面：https://blog.csdn.net/bushiyigeming/article/details/138838600
+
+# 配置独立显卡opengl渲染环境：https://blog.csdn.net/Hunter_pcx/article/details/144375816?sharetype=blogdetail&sharerId=144375816&sharerefer=PC&sharesource=Hunter_pcx&spm=1011.2480.3001.8118
 ```
 ```
 c++程序计时函数：
