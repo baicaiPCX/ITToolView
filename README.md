@@ -30,6 +30,7 @@ lspci 查看PCI(外设连接总线的规范)连接的设备信息
 glxinfo | grep "OpenGL version" 查看环境是集显(Mesa字眼)还是独显(NVIDIA字眼),查看opengl版本
 sudo prime-select nvidia/intel 切换独显/集显(执行后要重启电脑才能生效)
 cat /proc/cpuinfo 查看cpu型号
+scp 本地和主机之间的文件传输 eg:scp example.txt username@192.168.1.100:/home/username/
 ```
 ```
 python启动终端执行多条命令：
