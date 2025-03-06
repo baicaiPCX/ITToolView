@@ -76,6 +76,7 @@ gettimeofday():精度为微妙(推荐)
 ```
 ```
 linux查看库/可执行文件链接状态：ldd xxx
+windows查看库/可执行文件链接状态：dependency walker
 ```
 ```
 vscode在终端打开指定文件:code <file>
