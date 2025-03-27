@@ -1,5 +1,10 @@
 # ITToolView
 ```
+meshlab拆分两个窗口并实现联动：
+拆分：菜单栏->Split current view->Vertically
+两个窗口实现联动：菜单栏->Link Viewers
+```
+```
 huggingface 下载模型和数据：https://padeoe.com/huggingface-large-models-downloader/
 
 # 安装工具
